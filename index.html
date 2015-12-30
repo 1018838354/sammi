@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>0154078曹利坚的网页设计</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body {
+	background-image: url(img/diwen.PNG);
+}
+*{margin:0; padding:0;font-family:arial, 'Microsoft Yahei', '微软雅黑'; }
+#wrap{background:#DB5C35; border:2px solid grey; margin:0 auto; width:960px;}
+#top{background:url(img/top.png) no-repeat center; width:100%; height:200px;}
+#menu{ position:relative; margin-left:82px;align:center; text-decoration:overline;}
+#menu li{ margin-left:3px;float:left; text-decoration:none;font-weight:bold; list-style:none; color:#FFF; font-size:20px;}
+#menu a{position:relative;height:32px;line-height:20px; padding:2px 10px;color:#2B232E;text-decoration:none;outline:none;display:inline-block;text-shadow:none}
+#menu a:last,a:visited{ text-decoration:underline}
+#menu a:hover{text-decoration:underline; color:#E2B79D; background:url(img/a.PNG) center;}
+#mainbody{ position:relative;background:url(img/background.jpg);width:100%; height:900px;}
+.left{position:relative; margin-left:1px;padding:8px;width:230px; height:480px;padding-left:15px; background:url(img/left.gif) no-repeat;border:1px solid grey; color:#F7DD51;}
+.center{position:relative;width:684px; height:884px; margin:-498px 256px 0; padding:8px; background:#FFC; border:1px solid grey;}
+.title0{font-size:22px;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif; font-weight:bold; color:#E64CB1}
+.title1{font-size:18px; font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif; font-weight:bold; color:#1E1E1E}
+.passage{font-size:16px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; color:#787878;}
+#bottom{ position:relative; margin:0 auto; width:100%; background:#D6D6D6;}
+#floatleft{ z-index:9; position:fixed;margin-left:1px; margin-top:-700px;padding:8px;width:230px; height:170px;padding-left:15px; padding-top:0px; background:url(img/left.png);border:1px solid grey; color:#F7DD51;}
+floatright{position:fixed;
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+<div id="wrap">
+    <div id="top"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('00','','img/logo2.png',1)"><img style="margin-left:15px;" src="img/logo.png" alt="" width="200" height="170" id="00"></a>
+ <br/>
+ <ul id="menu">
+         <li><a href="index.html">首页</a></li>
+         <li><a href="news.html">最新资讯</a>
+        </li>
+         <li><a href="soft.html">软件开发</a>
+        </li>
+         <li><a href="enviro.html">系统环境</a>
+        </li>
+         <li><a href="infor.html">开源信息</a>
+        </li>
+        <li><a href="m.html">源码下载</a>
+        </li>
+        <li><a href="talk.html">资源论坛</a>
+        </li>
+        <li><a href="me.html">联系我</a>
+        </li>
+
+      </ul><br/>
+    </div>
+  <div id="mainbody">
+      <div class="left"> </div>
+      <div class="center">
+      <br/>
+        <div class="title0">->首页</div>
+          <div class="title1">经历一个月，我的第一个c语言程序出炉了</div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><img src="img/00.jpg" width="200" height="100" alt=""/></td>
+      <td class="passage">在经历长达一个月的时间里，我的c程序在一次次打码并调试下，终于完成了。它是一个信息管理系统，保存着用户编号、密码、姓名、qq号、电话号码。可通过用户编号快速查获信息，并有用户入口和管理员入口。</td>
+    </tr>
+  </tbody>
+</table>
+        <div class="title1">杨元庆补刀PC厂商不止两三家会退出，联想不怕多个对手</div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><img src="img/01.jpg" width="200" height="100" alt=""/></td>
+      <td class="passage">有悲观者将全球PC产业比喻成“泰坦尼克”，而联想正坐在这艘巨轮的头等舱。不过，在联想集团董事长兼CEO杨元庆看来，巨轮只是眼下遭遇了风暴，并不会真正撞到“冰山”。他认为整个PC行业依然还有发展空间，会...</td>
+    </tr>
+  </tbody>
+</table>
+<div class="title1">《华尔街日报》数字会议分析报告：移动互联网是如何吃掉整个世界的</div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><img src="img/02.jpg" width="200" height="100" alt=""/></td>
+      <td class="passage">软件和移动互联网已开始走向被内化阶段，成为各行业理所当然、不可或缺的组成部分。软件和移动互联网正在吃掉整个世界，科技业自身已容不下技术发展的张力。</td>
+    </tr>
+  </tbody>
+</table>
+<div class="title1">要竞选美国总统的前惠普CEO卡莉，最显赫的战绩就是搞垮了惠普</div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><img src="img/03.jpg" width="200" height="100" alt=""/></td>
+      <td class="passage">至少从现今看来，惠普的体积臃肿，PC产业变革缓慢与合并不无关系。由于公司的业绩屡次低于华尔街预期，卡莉在2005年初被解雇。最臭名昭著的还要属监听丑闻。</td>
+    </tr>
+  </tbody>
+</table>
+  <div class="title1">电脑发短信 微软“小娜”多平台发布</div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><img src="img/04.GIF" width="200" height="100" alt=""/></td>
+      <td class="passage">电脑发短信 微软“小娜”多平台发布Win1 Th2带来了各方面的改变，小娜的功能再次增强，现在不仅可以追踪快递，还能从桌面直接... </td>
+    </tr>
+  </tbody>
+</table>
+  <div class="title1">部落冲突玩家分享9本新版护黑阵</div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><img src="img/05.jpg" width="200" height="100" alt=""/></td>
+      <td class="passage">全球热门策略手游：CoC中文安卓版来了！Supercell中国战略合作伙伴昆仑游戏正式对外宣布，部落冲突（Clash of Clans,简称CoC）官方中文安卓版即将正式推出。在游戏中玩家可以经营村庄、强大兵力，在全球范围内寻找玩家并结成部落。打资源、升大本，一起战斗一起嗨！</td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+
+    <div id="bottom">
+    <table  style="margin:0 auto; color:#333; font-size:16px;"width="900" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">关于我们| 会员服务| 广告服务| 参展回顾| 服务条款| 免责声明| 招聘信息| 网站地图| 联系我们 </td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="42%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="24%" align="center" valign="middle"><p><img src="img/wechat.jpg" width="80" height="80"></p>
+              <p>我的微信</p></td>
+            <td width="28%" align="center" valign="middle"><p><img src="img/qq.jpg" width="80" height="80"></p>
+              <p>我的QQ</p></td>
+            <td width="48%" align="center" valign="middle"><h6>全国免费咨询热线：</h6>
+              <H3>4000-000-000              </H3>
+              <p>椰汁伟：188-8888-8888</p></td>
+          </tr>
+        </table></td>
+        <td width="58%" align="left"><p>网站联系方式：</p>
+          <p>广告服务：1018838354@qq.cn<strong>传</strong>真： 0755-8888888</p>
+          <p>媒体合作： 133-1695-9801<A href="tencent://Message/?Uin=1018838354&Site=im.qq.com&Menu=yes" rel="nofollow"><IMG height="16" align="absmiddle" id="qq_1" alt="点击这里给我发消息" src="http://wpa.qq.com/pa?p=1:1018838354:10" border="no">：1018838354</A></p>
+          <p>Copyright©2015 12.18品牌招商网 版权所有   京ICP备1000000号</p>
+          <p>京ICP证1000000号  网警备案号：1000000   京公网安备1000000000号</p></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</div>
+    </div>
+    <div id="floatleft"><form name="form1" method="post" action="" style="margin:10px auto;">
+    <span id="sprytextfield1"><h4><center>用户登陆:</center></h4>
+      <label for="text1">用户名:</label>
+      <input type="text" name="text1" id="text1">
+      <span class="textfieldRequiredMsg"></span></span>
+  </form>
+  <span id="sprypassword1" >
+  <label for="password1">&nbsp;&nbsp;密码:&nbsp;&nbsp;</label>
+  <input type="password" name="password1" id="password1">
+  <span class="passwordRequiredMsg"></span></span> 
+  <form name="form2" method="post" action=""><br/>
+    <p style="margin:0px auto; width:150px">
+      <label>
+        <input type="checkbox" name="呵呵" value="复选框" id="呵呵_0">
+        保存密码</label>
+      <br>
+      <label>
+        <input type="checkbox" name="呵呵" value="复选框" id="呵呵_1">
+        自动登录</label>
+      <br>
+    </p>
+  </form>
+  <p style="margin:10px auto; width:120px;">
+    <input type="submit" name="button" id="button" value="登录" /> <input type="submit" name="button" id="button" value="找回密码" />
+  </p>
+</div>
+    <div id="floatright">hh</div>
+</div>
+</body>
+</html>
